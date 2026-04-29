@@ -1,2 +1,5 @@
-# BugTrackerPro
-BugTracker Pro — an enterprise-level bug tracking and issue management system.
+Bug Tracking System (Full Stack Web Application)
+The Bug Tracking System is a full-stack web application designed to help teams efficiently report, track, and manage software bugs in a structured and collaborative manner. The system provides a Kanban-style dashboard where bugs move across different stages such as Open, In Progress, Resolved, and Closed, enabling clear visualization of the bug lifecycle.
+The application is built using HTML, CSS, and JavaScript for the frontend, and Spring Boot for the backend, with MySQL as the database. It follows a RESTful architecture, where the frontend communicates with backend APIs using the Fetch API.
+One of the key features of the system is real-time updates using WebSockets, allowing users to see changes instantly without refreshing the page. Additionally, the system supports file uploads, enabling users to attach screenshots or supporting documents while reporting bugs.
+The application also includes a basic authentication system where users can register and log in to access the dashboard. The backend handles data persistence, API routing, and real-time communication, while the frontend provides an interactive and user-friendly interface.
